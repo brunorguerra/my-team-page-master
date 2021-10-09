@@ -1,0 +1,107 @@
+header {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 9rem 0;
+}
+header h1 {
+    font-size: 3.6rem;
+}
+header .whoWeAre {
+    max-width: 45rem;
+}
+header .whoWeAre h2 {
+    font-size: 1.8rem;
+}
+header .whoWeAre p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+
+/* Main */
+main {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5.3rem;
+
+    align-items: center;
+    justify-content: center;
+
+    place-items: center;
+}
+
+main .card {
+    margin-bottom: 7rem;
+
+    max-width: 30rem;
+}
+main .card h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    margin-top: 1.5rem;
+}
+main .card img {
+    max-width: 25rem;
+    width: 100%;
+}
+main .card p {
+    font-size: 1.2rem;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+
+    color: #3c3c3c;
+}
+main .groupTwo {
+    margin-top: 10rem;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+
+    padding: 2rem 0;
+}
+footer p, footer p a  {
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+
+    color: var(--gray);
+}
+footer p a {
+    font-weight: bold;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Responsive MediasQueries */
+@media (max-width: 978px) {
+    header {
+        flex-direction: column;
+    }
+    header .whoWeAre {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 475px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    main .groupTwo {
+        margin-top: 0;
+    }
+}

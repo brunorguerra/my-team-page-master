@@ -1,0 +1,39 @@
+:root {
+    --black: #000000; 
+    --gray: #A9A9A9;
+    --background: #FAFAFA;
+
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif; */
+
+}
+html {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.sr-only {
+    position: absolute;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+#container {
+    width: min(114rem, 90%);
+    margin: auto;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background: var(--background);
+}
