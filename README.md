@@ -53,7 +53,7 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This page was created for learning, by the challenge of the [DevChallenges] (https://devchallenges.io/challenges). The [challenge] (https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build a page in case you don't find it
+This page was created for learning, by the challenge of the [DevChallenges] (https://devchallenges.io/challenges). The [challenge] (https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) the challenge was to build a landing page for a responsive team using flexbox display and grid
 
 
 ## Contact
